@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <title>深圳远大肛肠医院</title>
+  <link rel="stylesheet" href="lib/swiper/css/swiper.css" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <!-- layout主体在页面最大640px,最小320px 并且居中显示 -->
+  <div class="layout">
+    <header id="header">
+      <a href="#" class="home"></a>
+      <img src="./images/logo.png" alt="" />
+      <a href="#" class="phone"></a>
+    </header>
+
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="#">
+            <p>网站首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>医院简介</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>专家团队</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>特色疗法</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>康复案例</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>女性专区</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>预约挂号</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p>来院路线</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="slide">
+      <!-- swiper-container轮播图大容器 -->
+      <div class="swiper-container">
+        <!-- 轮播图 所有图片的容器 -->
+        <div class="swiper-wrapper">
+          <!-- 每一张轮播图图片容器 -->
+
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/banner1.png" alt="" /> </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/banner2.png" alt="" /> </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/banner3.png" alt="" /> </a>
+          </div>
+        </div>
+        <!-- 小圆点的容器-->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <main>
+      <div id="content1">
+        <img src="./images/content1.png" alt="">
+        <div class="detail">
+          <div class="left">
+            <div>疙瘩位置</div>
+            <div class="triangle"></div>
+          </div>
+          <div class="right">
+            <div>
+              <input type="checkbox" name="test" value="肛门口" />
+              <span>肛门口</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="肛门旁" />
+              <span>肛门旁</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="肛门里" />
+              <span>肛门里</span>
+            </div>
+          </div>
+        </div>
+        <div class="detail">
+          <div class="left">
+            <div>疼痛程度</div>
+            <div class="triangle"></div>
+          </div>
+          <div class="right">
+            <div>
+              <input type="checkbox" name="test" value="无疼痛" />
+              <span>无疼痛</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="轻微疼痛" />
+              <span>轻微疼痛</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="便后疼痛" />
+              <span>便后疼痛</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="肉包疼痛" />
+              <span>肉包疼痛</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="热辣疼痛" />
+              <span>热辣疼痛</span>
+            </div>
+          </div>
+        </div>
+        <div class="detail">
+          <div class="left">
+            <div>其它症状</div>
+            <div class="triangle"></div>
+          </div>
+          <div class="right">
+            <div>
+              <input type="checkbox" name="test" value="便秘" />
+              <span>便秘</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="肛门脓肿" />
+              <span>肛门脓肿</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="肛门坠胀" />
+              <span>肛门坠胀</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="大便不规律" />
+              <span>大便不规律</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="便血" />
+              <span>便血</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="肛门痛痒" />
+              <span>肛门痛痒</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="大便干燥" />
+              <span>大便干燥</span>
+            </div>
+            <div>
+              <input type="checkbox" name="test" value="疙瘩是否脱出" />
+              <span>疙瘩是否脱出</span>
+            </div>
+          </div>
+        </div>
+        <div id="submit">
+          <input id="sub" type='button' value='提交症状选择' onclick="show()" />
+          <input id="problem" type='button' value='提交症状选择' />
+        </div>
+      </div>
+      <div id="content2">
+        <img src="./images/content2.png" alt="">
+        <ul>
+          <li>
+            <a href="#">
+              <!-- 这里的图没办法的,所以用截图代替 -->
+              <img src="./images/content2-1.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/content2-2.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/content2-3.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/content2-4.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/content2-5.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/content2-6.png" alt="">
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div id="content3">
+        <img src="./images/content3.png" alt="">
+        <div>
+          <div class="left">
+            <img src="./images/content3-1.png" alt="">
+          </div>
+          <div class="right">
+            <p>3D三维立体成像检查</p>
+            <div>
+              <!-- 这里的小图标无法操作,所以截图 -->
+              <img src="./images/content3-2.png" alt="">
+            </div>
+            <div class="btn">
+              <button class="left">我想咨询了解</button>
+              <button class="right">我想预约检查</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content4">
+        <!-- 这里大部分都是文字,我还是直接截图吧 -->
+        <img src="./images/content4.png" alt="">
+        <div class="detail">
+
+        </div>
+      </div>
+      <div id="content5">
+        <img src="./images/content5.png" alt="">
+        <div>
+          <img src="./images/content5-1.png" alt="">
+        </div>
+      </div>
+      <div id="content6">
+        <div class="guanzhu">
+          <div class="guanzhu1">
+            <a>患者关注</a>
+          </div>
+          <div class="guanzhu2">
+            <a>关注您需要的肛门上长疙瘩常识</a>
+          </div class=”“>
+        </div>
+
+        <!-- 荐 -->
+        <div class="jian">
+          <ul>
+            <li>
+              <a class="tuijian">
+                <p>[荐]</p>
+                <span>肛门上长疙瘩怎样治疗好？</span>
+              </a>
+              <a class="zixun">点击咨询</a>
+            </li>
+
+            <li>
+              <a class="tuijian">
+                <p>[荐]</p>
+                <span>肛门上长疙瘩怎样治疗好？</span>
+              </a>
+              <a class="zixun">点击咨询</a>
+            </li>
+            <li>
+              <a class="tuijian">
+                <p>[荐]</p>
+                <span>肛门上长疙瘩怎样治疗好？</span>
+              </a>
+              <a class="zixun">点击咨询</a>
+            </li>
+            <li>
+              <a class="tuijian">
+                <p>[荐]</p>
+                <span>肛门上长疙瘩怎样治疗好？</span>
+              </a>
+              <a class="zixun">点击咨询</a>
+            </li>
+            <li>
+              <a class="tuijian">
+                <p>[荐]</p>
+                <span>肛门上长疙瘩怎样治疗好？</span</a>
+                  <a class="zixun">点击咨询</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- 底部 -->
+    <footer>
+      <section id="footernav">
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#">
+                <p>网站首页</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>特色疗法</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>专家团队</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>联系我们</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- 声明 -->
+      <section id="shengming ">
+        <div class="shengmingg">
+          <span>地址: 深圳市罗湖区沿河南路指挥中心一号大院</span>
+          <span>版权所有:深圳远大肛肠医院</span>
+          <span>网站声明:本站部分信息来自网络,仅供参考,不能作为诊断
+            <br>医疗的依据,请谨慎参阅</span>
+        </div>
+      </section>
+    </footer>
+    <!-- 2. 引入swiper的JS文件 -->
+    <script src="lib/swiper/js/swiper.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
